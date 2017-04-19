@@ -1,0 +1,14 @@
+{
+  "name": "heroku-node",
+  "description": "Our Node app to query api.ai",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "apiai": "*",
+    "express": "~4.9.8",
+    "method-override" : "*",
+    "body-parser":"*"
+  }
+}
