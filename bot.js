@@ -38,6 +38,8 @@ app.post("/ask", function(req, res) {
     request.end();
 });
 
-app.listen(5000, function() {
+var server_port = process.env.YOUR_PORT || process.env.PORT;
+
+app.listen(server_port, function() {
     console.log("Listening on " + (5000));
 });
